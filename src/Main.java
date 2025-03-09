@@ -1,8 +1,16 @@
-// 按两次 Shift 打开“随处搜索”对话框并输入 `show whitespaces`，
-// 然后按 Enter 键。现在，您可以在代码中看到空格字符。
+import java.io.*;
+
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("The First Java Project");
+    public static void main(String[] args) throws IOException {
+        String str1;
+        BufferedReader buf=new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("pelase input a char");
+        str1= buf.readLine();
+        float num1=Float.parseFloat(str1);
+        System.out.println(num1);
+
+
 
     }
 }
